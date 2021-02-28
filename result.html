@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap" rel="stylesheet">
+  <head>
+    <title>Qalyn Mal</title>
+  </head>
+
+  <script>
+    function getResult() {
+         var result = window.location.hash.substring(1);
+         document.getElementById("result").innerHTML = result;
+ }</script>
+<style> 
+.container {
+text-align: center;
+
+background-image:url(https://www.inform.kz/radmin/news/2020/04/15/200415202224517e.jpg) ;
+background-size: cover;
+    border-radius: 10px;
+    height: 900px;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+  
+  
+}
+
+</style>
+  <body onload="getResult()">
+
+    <div class="container  ">
+
+        <h1>  <em> The Qalyn Mal is:  <span id="result"> </span> $ </em> </h1>
+
+    </div>
+
+    </body>
+</html>
